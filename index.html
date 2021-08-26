@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math Game</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="start">Start</div>
+        <div id="game" id='game' style="display: none">
+            <div id="timer">
+                <div id='counter'></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="result"></div>
+            <div id="choices">
+                <ul>
+                    <li class="choice" id='c1' onclick="checkAnswer('c1')"></li>
+                    <li class="choice" id='c2' onclick="checkAnswer('c2')"></li>
+                    <li class="choice" id='c3' onclick="checkAnswer('c3')"></li>
+                    <li class="choice" id='c4' onclick="checkAnswer('c4')"></li>
+                </ul>
+            </div>
+            <div class="score "></div>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
